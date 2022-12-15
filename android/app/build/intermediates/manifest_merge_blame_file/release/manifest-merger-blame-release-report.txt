@@ -1,0 +1,203 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.proassetz"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:5:5-64
+12-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:5:22-62
+13
+14    <uses-feature
+14-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:6:5-85
+15        android:name="android.hardware.camera"
+15-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:6:19-57
+16        android:required="false" />
+16-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:6:58-82
+17    <uses-feature
+17-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:7:5-91
+18        android:name="android.hardware.camera.front"
+18-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:7:19-63
+19        android:required="false" />
+19-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:7:64-88
+20
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:8:5-81
+21-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:8:22-78
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:9:5-80
+22-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:9:22-77
+23    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+23-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:10:5-72
+23-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:10:22-69
+24    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+24-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:11:5-74
+24-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:11:22-71
+25    <uses-permission android:name="com.fingerprints.service.ACCESS_FINGERPRINT_MANAGER" />
+25-->[:react-native-fingerprint-scanner] E:\React Native Work\ProAssetz\node_modules\react-native-fingerprint-scanner\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-91
+25-->[:react-native-fingerprint-scanner] E:\React Native Work\ProAssetz\node_modules\react-native-fingerprint-scanner\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-88
+26    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+26-->[:react-native-fingerprint-scanner] E:\React Native Work\ProAssetz\node_modules\react-native-fingerprint-scanner\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-117
+26-->[:react-native-fingerprint-scanner] E:\React Native Work\ProAssetz\node_modules\react-native-fingerprint-scanner\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:22-114
+27
+28    <queries>
+28-->[:react-native-image-crop-picker] E:\React Native Work\ProAssetz\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-13:15
+29        <intent>
+29-->[:react-native-image-crop-picker] E:\React Native Work\ProAssetz\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-12:18
+30            <action android:name="android.media.action.IMAGE_CAPTURE" />
+30-->[:react-native-image-crop-picker] E:\React Native Work\ProAssetz\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-73
+30-->[:react-native-image-crop-picker] E:\React Native Work\ProAssetz\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:21-70
+31        </intent>
+32    </queries> <!-- Required to access Google Play Licensing -->
+33    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+33-->[:rn-fetch-blob] E:\React Native Work\ProAssetz\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-73
+33-->[:rn-fetch-blob] E:\React Native Work\ProAssetz\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-70
+34    <!--
+35         Required to keep CPU alive while downloading files
+36        (NOT to keep screen awake)
+37    -->
+38    <uses-permission android:name="android.permission.WAKE_LOCK" />
+38-->[:rn-fetch-blob] E:\React Native Work\ProAssetz\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:5-68
+38-->[:rn-fetch-blob] E:\React Native Work\ProAssetz\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:22-65
+39    <!--
+40         Required to poll the state of the network connection
+41        and respond to changes
+42    -->
+43    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required to check whether Wi-Fi is enabled -->
+43-->[:rn-fetch-blob] E:\React Native Work\ProAssetz\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:5-79
+43-->[:rn-fetch-blob] E:\React Native Work\ProAssetz\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:22-76
+44    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+44-->[:rn-fetch-blob] E:\React Native Work\ProAssetz\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:5-76
+44-->[:rn-fetch-blob] E:\React Native Work\ProAssetz\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:22-73
+45
+46    <application
+46-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:13:5-34:19
+47        android:name="com.proassetz.MainApplication"
+47-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:14:7-38
+48        android:allowBackup="false"
+48-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:19:7-34
+49        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+49-->[androidx.core:core:1.7.0] C:\Users\muham\.gradle\caches\transforms-3\7ccc09d15a4afb32c10716870a6cb080\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+50        android:icon="@mipmap/ic_launcher"
+50-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:16:7-41
+51        android:label="@string/app_name"
+51-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:15:7-39
+52        android:requestLegacyExternalStorage="true"
+52-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:17:7-50
+53        android:roundIcon="@mipmap/ic_launcher_round"
+53-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:18:7-52
+54        android:theme="@style/AppTheme" >
+54-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:20:7-38
+55        <activity
+55-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:21:7-33:18
+56            android:name="com.proassetz.MainActivity"
+56-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:22:9-37
+57            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+57-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:24:9-118
+58            android:exported="true"
+58-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:28:9-32
+59            android:label="@string/app_name"
+59-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:23:9-41
+60            android:launchMode="singleTask"
+60-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:25:9-40
+61            android:screenOrientation="portrait"
+61-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:27:9-45
+62            android:windowSoftInputMode="adjustResize" >
+62-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:26:9-51
+63            <intent-filter>
+63-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:29:9-32:25
+64                <action android:name="android.intent.action.MAIN" />
+64-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:30:13-65
+64-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:30:21-62
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:31:13-73
+66-->E:\React Native Work\ProAssetz\android\app\src\main\AndroidManifest.xml:31:23-70
+67            </intent-filter>
+68        </activity>
+69
+70        <provider
+70-->[:react-native-image-crop-picker] E:\React Native Work\ProAssetz\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-26:20
+71            android:name="androidx.core.content.FileProvider"
+71-->[:react-native-image-crop-picker] E:\React Native Work\ProAssetz\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-62
+72            android:authorities="com.proassetz.provider"
+72-->[:react-native-image-crop-picker] E:\React Native Work\ProAssetz\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-60
+73            android:exported="false"
+73-->[:react-native-image-crop-picker] E:\React Native Work\ProAssetz\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-37
+74            android:grantUriPermissions="true" >
+74-->[:react-native-image-crop-picker] E:\React Native Work\ProAssetz\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-47
+75            <meta-data
+75-->[:react-native-image-crop-picker] E:\React Native Work\ProAssetz\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-25:58
+76                android:name="android.support.FILE_PROVIDER_PATHS"
+76-->[:react-native-image-crop-picker] E:\React Native Work\ProAssetz\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:17-67
+77                android:resource="@xml/provider_paths" />
+77-->[:react-native-image-crop-picker] E:\React Native Work\ProAssetz\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:17-55
+78        </provider>
+79
+80        <activity
+80-->[:react-native-image-crop-picker] E:\React Native Work\ProAssetz\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:9-30:72
+81            android:name="com.yalantis.ucrop.UCropActivity"
+81-->[:react-native-image-crop-picker] E:\React Native Work\ProAssetz\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-60
+82            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+82-->[:react-native-image-crop-picker] E:\React Native Work\ProAssetz\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-69
+83
+84        <provider
+84-->[:rn-fetch-blob] E:\React Native Work\ProAssetz\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:9-42:20
+85            android:name="com.RNFetchBlob.Utils.FileProvider"
+85-->[:rn-fetch-blob] E:\React Native Work\ProAssetz\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-62
+86            android:authorities="com.proassetz.provider"
+86-->[:rn-fetch-blob] E:\React Native Work\ProAssetz\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:13-60
+87            android:exported="false"
+87-->[:rn-fetch-blob] E:\React Native Work\ProAssetz\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:13-37
+88            android:grantUriPermissions="true" >
+88-->[:rn-fetch-blob] E:\React Native Work\ProAssetz\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-47
+89            <meta-data
+89-->[:react-native-image-crop-picker] E:\React Native Work\ProAssetz\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-25:58
+90                android:name="android.support.FILE_PROVIDER_PATHS"
+90-->[:react-native-image-crop-picker] E:\React Native Work\ProAssetz\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:17-67
+91                android:resource="@xml/provider_paths" />
+91-->[:react-native-image-crop-picker] E:\React Native Work\ProAssetz\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:17-55
+92        </provider>
+93
+94        <activity
+94-->[androidx.biometric:biometric:1.0.1] C:\Users\muham\.gradle\caches\transforms-3\7462abf61bc2c45d09b2337bc7f1db1e\transformed\biometric-1.0.1\AndroidManifest.xml:28:9-31:67
+95            android:name="androidx.biometric.DeviceCredentialHandlerActivity"
+95-->[androidx.biometric:biometric:1.0.1] C:\Users\muham\.gradle\caches\transforms-3\7462abf61bc2c45d09b2337bc7f1db1e\transformed\biometric-1.0.1\AndroidManifest.xml:29:13-78
+96            android:exported="true"
+96-->[androidx.biometric:biometric:1.0.1] C:\Users\muham\.gradle\caches\transforms-3\7462abf61bc2c45d09b2337bc7f1db1e\transformed\biometric-1.0.1\AndroidManifest.xml:30:13-36
+97            android:theme="@style/DeviceCredentialHandlerTheme" />
+97-->[androidx.biometric:biometric:1.0.1] C:\Users\muham\.gradle\caches\transforms-3\7462abf61bc2c45d09b2337bc7f1db1e\transformed\biometric-1.0.1\AndroidManifest.xml:31:13-64
+98
+99        <provider
+99-->[androidx.emoji2:emoji2:1.0.0] C:\Users\muham\.gradle\caches\transforms-3\fefd3c77522d76a760f105a036df52c3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+100            android:name="androidx.startup.InitializationProvider"
+100-->[androidx.emoji2:emoji2:1.0.0] C:\Users\muham\.gradle\caches\transforms-3\fefd3c77522d76a760f105a036df52c3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+101            android:authorities="com.proassetz.androidx-startup"
+101-->[androidx.emoji2:emoji2:1.0.0] C:\Users\muham\.gradle\caches\transforms-3\fefd3c77522d76a760f105a036df52c3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+102            android:exported="false" >
+102-->[androidx.emoji2:emoji2:1.0.0] C:\Users\muham\.gradle\caches\transforms-3\fefd3c77522d76a760f105a036df52c3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+103            <meta-data
+103-->[androidx.emoji2:emoji2:1.0.0] C:\Users\muham\.gradle\caches\transforms-3\fefd3c77522d76a760f105a036df52c3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+104                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+104-->[androidx.emoji2:emoji2:1.0.0] C:\Users\muham\.gradle\caches\transforms-3\fefd3c77522d76a760f105a036df52c3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+105                android:value="androidx.startup" />
+105-->[androidx.emoji2:emoji2:1.0.0] C:\Users\muham\.gradle\caches\transforms-3\fefd3c77522d76a760f105a036df52c3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+106            <meta-data
+106-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\muham\.gradle\caches\transforms-3\04f98c257b1fe09c6141c33a6a1a9ddb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+107                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+107-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\muham\.gradle\caches\transforms-3\04f98c257b1fe09c6141c33a6a1a9ddb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+108                android:value="androidx.startup" />
+108-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\muham\.gradle\caches\transforms-3\04f98c257b1fe09c6141c33a6a1a9ddb\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+109        </provider>
+110    </application>
+111
+112</manifest>

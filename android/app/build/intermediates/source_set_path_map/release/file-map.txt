@@ -1,0 +1,48 @@
+com.proassetz.app-jetified-lifecycle-process-2.4.0-0 C:\Users\muham\.gradle\caches\transforms-3\04f98c257b1fe09c6141c33a6a1a9ddb\transformed\jetified-lifecycle-process-2.4.0\res
+com.proassetz.app-jetified-startup-runtime-1.0.0-1 C:\Users\muham\.gradle\caches\transforms-3\3b09ef65abeee57b1094192bbfffa8a6\transformed\jetified-startup-runtime-1.0.0\res
+com.proassetz.app-jetified-drawee-2.5.0-2 C:\Users\muham\.gradle\caches\transforms-3\4c92f71605b49e052c7c76c9fb7bbab5\transformed\jetified-drawee-2.5.0\res
+com.proassetz.app-jetified-core-ktx-1.6.0-3 C:\Users\muham\.gradle\caches\transforms-3\4f6801df15960f806b421821d6d3e24d\transformed\jetified-core-ktx-1.6.0\res
+com.proassetz.app-recyclerview-1.1.0-4 C:\Users\muham\.gradle\caches\transforms-3\511e19866d341674a9f2bb52b40eb19a\transformed\recyclerview-1.1.0\res
+com.proassetz.app-material-1.1.0-5 C:\Users\muham\.gradle\caches\transforms-3\55a8bb58612ba2e6dac45c4b5a9f70fe\transformed\material-1.1.0\res
+com.proassetz.app-jetified-react-native-0.71.0-rc.0-release-6 C:\Users\muham\.gradle\caches\transforms-3\576aeaf5122720059771ecfaed1c663c\transformed\jetified-react-native-0.71.0-rc.0-release\res
+com.proassetz.app-transition-1.2.0-7 C:\Users\muham\.gradle\caches\transforms-3\582e4457f3e6cf51d950df3d43717e18\transformed\transition-1.2.0\res
+com.proassetz.app-jetified-savedstate-1.1.0-8 C:\Users\muham\.gradle\caches\transforms-3\5d173ca267e5a89bb479e55256d6048e\transformed\jetified-savedstate-1.1.0\res
+com.proassetz.app-lifecycle-viewmodel-2.3.1-9 C:\Users\muham\.gradle\caches\transforms-3\61fa5c553ff04eb99e8d8272291f55b3\transformed\lifecycle-viewmodel-2.3.1\res
+com.proassetz.app-cardview-1.0.0-10 C:\Users\muham\.gradle\caches\transforms-3\6500b843c3c3728ff4988123484fc67e\transformed\cardview-1.0.0\res
+com.proassetz.app-jetified-viewpager2-1.0.0-11 C:\Users\muham\.gradle\caches\transforms-3\721de0bab9dfa865458ac0ed8ac2288f\transformed\jetified-viewpager2-1.0.0\res
+com.proassetz.app-swiperefreshlayout-1.1.0-12 C:\Users\muham\.gradle\caches\transforms-3\74368e1cb4573ff0e99f68fdc58b14d7\transformed\swiperefreshlayout-1.1.0\res
+com.proassetz.app-biometric-1.0.1-13 C:\Users\muham\.gradle\caches\transforms-3\7462abf61bc2c45d09b2337bc7f1db1e\transformed\biometric-1.0.1\res
+com.proassetz.app-jetified-emoji2-views-helper-1.0.0-14 C:\Users\muham\.gradle\caches\transforms-3\751d6c8815c418b9062accf2c552c5fe\transformed\jetified-emoji2-views-helper-1.0.0\res
+com.proassetz.app-jetified-ucrop-2.2.6-native-15 C:\Users\muham\.gradle\caches\transforms-3\785651ca5beb21d13fc68ae4df650826\transformed\jetified-ucrop-2.2.6-native\res
+com.proassetz.app-core-1.7.0-16 C:\Users\muham\.gradle\caches\transforms-3\7ccc09d15a4afb32c10716870a6cb080\transformed\core-1.7.0\res
+com.proassetz.app-fragment-1.3.6-17 C:\Users\muham\.gradle\caches\transforms-3\83b64bb2d15ee169bd47a0daa1f2bf34\transformed\fragment-1.3.6\res
+com.proassetz.app-jetified-appcompat-resources-1.4.1-18 C:\Users\muham\.gradle\caches\transforms-3\8dcd9f0273e3fcec5bebe47a38a3a7ea\transformed\jetified-appcompat-resources-1.4.1\res
+com.proassetz.app-appcompat-1.4.1-19 C:\Users\muham\.gradle\caches\transforms-3\a40cbac3c762c80f694d6370ccfb55f6\transformed\appcompat-1.4.1\res
+com.proassetz.app-coordinatorlayout-1.1.0-20 C:\Users\muham\.gradle\caches\transforms-3\a76d92db8830bda57cef3e339db279e0\transformed\coordinatorlayout-1.1.0\res
+com.proassetz.app-jetified-annotation-experimental-1.1.0-21 C:\Users\muham\.gradle\caches\transforms-3\ab9338c93b89e926043644a18356ecf2\transformed\jetified-annotation-experimental-1.1.0\res
+com.proassetz.app-jetified-tracing-1.1.0-22 C:\Users\muham\.gradle\caches\transforms-3\b9258b58dc715a77b2f50d8d452b50b7\transformed\jetified-tracing-1.1.0\res
+com.proassetz.app-jetified-autofill-1.1.0-23 C:\Users\muham\.gradle\caches\transforms-3\d5f4043cfd5df8c27e227c1dbe3a901f\transformed\jetified-autofill-1.1.0\res
+com.proassetz.app-lifecycle-runtime-2.4.0-24 C:\Users\muham\.gradle\caches\transforms-3\f398eefc8f02265123bd299733b55468\transformed\lifecycle-runtime-2.4.0\res
+com.proassetz.app-jetified-emoji2-1.0.0-25 C:\Users\muham\.gradle\caches\transforms-3\fefd3c77522d76a760f105a036df52c3\transformed\jetified-emoji2-1.0.0\res
+com.proassetz.app-react-26 E:\React Native Work\ProAssetz\android\app\build\generated\res\react\release
+com.proassetz.app-resValues-27 E:\React Native Work\ProAssetz\android\app\build\generated\res\resValues\release
+com.proassetz.app-rs-28 E:\React Native Work\ProAssetz\android\app\build\generated\res\rs\release
+com.proassetz.app-mergeReleaseResources-29 E:\React Native Work\ProAssetz\android\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.proassetz.app-mergeReleaseResources-30 E:\React Native Work\ProAssetz\android\app\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.proassetz.app-merged_res-31 E:\React Native Work\ProAssetz\android\app\build\intermediates\merged_res\release
+com.proassetz.app-main-32 E:\React Native Work\ProAssetz\android\app\src\main\res
+com.proassetz.app-release-33 E:\React Native Work\ProAssetz\android\app\src\release\res
+com.proassetz.app-packaged_res-34 E:\React Native Work\ProAssetz\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\packaged_res\release
+com.proassetz.app-packaged_res-35 E:\React Native Work\ProAssetz\node_modules\@react-native-clipboard\clipboard\android\build\intermediates\packaged_res\release
+com.proassetz.app-packaged_res-36 E:\React Native Work\ProAssetz\node_modules\@react-native-community\checkbox\android\build\intermediates\packaged_res\release
+com.proassetz.app-packaged_res-37 E:\React Native Work\ProAssetz\node_modules\@react-native-community\datetimepicker\android\build\intermediates\packaged_res\release
+com.proassetz.app-packaged_res-38 E:\React Native Work\ProAssetz\node_modules\@react-native-community\progress-view\android\build\intermediates\packaged_res\release
+com.proassetz.app-packaged_res-39 E:\React Native Work\ProAssetz\node_modules\react-native-fingerprint-scanner\android\build\intermediates\packaged_res\release
+com.proassetz.app-packaged_res-40 E:\React Native Work\ProAssetz\node_modules\react-native-fs\android\build\intermediates\packaged_res\release
+com.proassetz.app-packaged_res-41 E:\React Native Work\ProAssetz\node_modules\react-native-gesture-handler\android\build\intermediates\packaged_res\release
+com.proassetz.app-packaged_res-42 E:\React Native Work\ProAssetz\node_modules\react-native-image-crop-picker\android\build\intermediates\packaged_res\release
+com.proassetz.app-packaged_res-43 E:\React Native Work\ProAssetz\node_modules\react-native-safe-area-context\android\build\intermediates\packaged_res\release
+com.proassetz.app-packaged_res-44 E:\React Native Work\ProAssetz\node_modules\react-native-screens\android\build\intermediates\packaged_res\release
+com.proassetz.app-packaged_res-45 E:\React Native Work\ProAssetz\node_modules\react-native-svg\android\build\intermediates\packaged_res\release
+com.proassetz.app-packaged_res-46 E:\React Native Work\ProAssetz\node_modules\react-native-vector-icons\android\build\intermediates\packaged_res\release
+com.proassetz.app-packaged_res-47 E:\React Native Work\ProAssetz\node_modules\rn-fetch-blob\android\build\intermediates\packaged_res\release
